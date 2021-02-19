@@ -1,0 +1,2 @@
+numpy
+## go to run command line and enter 'pip install numpy'

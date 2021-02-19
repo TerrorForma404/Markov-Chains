@@ -1,0 +1,99 @@
+Ransomware is a type of malware threat actors use to infect computers and encrypt computer files until a
+ransom is paid. (See Protecting Against Malicious Code for more information on malware.) Aer the initial
+infection, ransomware will attempt to spread to connected systems, including shared storage drives and
+other accessible computers.
+If the threat actor’s ransom demands are not met (i.e., if the victim does not pay the ransom), the files or
+encrypted data will usually remain encrypted and unavailable to the victim. Even are a ransom has been
+paid to unlock encrypted files, threat actors will sometimes demand additional payments, delete a victim’s
+data, refuse to decrypt the data, or decline to provide a working decryption key to restore the victim’s
+access. The Federal Government does not support paying ransomware demands.
+Ransomware identifies the drives on an infected system and begins to encrypt the files within each drive.
+Ransomware generally adds an extension to the encrypted files to show that the files have
+been encrypted—the file extension used is unique to the ransomware type.
+Once the ransomware has completed file encryption, it creates and displays a file or files containing
+instructions on how the victim can pay the ransom. If the victim pays the ransom, the threat actor may
+provide a cryptographic key that the victim can use to unlock the files, making them accessible.
+
+Ransomware is commonly delivered through phishing emails or via “drive-by downloads.” Phishing emails
+one appear as though they have been sent from a legitimate organization or someone known to the
+victim and entice the user to click on a malicious link or open a malicious attachment. A “drive-by
+download” is a program that is automatically downloaded from the internet without the user’s consent or
+or without their knowledge. It is possible the malicious code may run are download, without user
+interaction. Aer the malicious code has been run, the computer becomes infected with ransomware.
+Back up your computer. Perform frequent backups of your system and other important files, and verify
+your backups regularly. If your computer becomes infected with ransomware, you can restore your
+system to its previous state using your backups.
+Store your backups separately. Best practice is to store your backups on a separate device that cannot
+be accessed from a network, such as on an external hard drive. Once the backup is completed, make
+sure to disconnect the external hard drive, or separate device from the network or computer.
+Train your organization. Organizations should ensure that they provide cybersecurity awareness
+training to their personnel. Ideally, organizations will have regular, mandatory cybersecurity awareness
+training sessions to ensure their personnel are informed about current cybersecurity threats and threat
+actor techniques. To improve workforce awareness, organizations can test their personnel with
+phishing assessments that simulate real-world phishing emails.
+Update and patch your computer. Ensure your applications and operating systems (OSs) have been
+updated with the latest patches. Vulnerable applications and OSs are the target of most ransomware
+attacks. 
+Use caution with links and when entering website addresses. Be careful when clicking directly on links
+in emails, even if the sender appears to be someone you know. Attempt to independently verify website
+addresses (e.g., contact your organization's helpdesk, search the internet for the sender organization’s
+website or the topic mentioned in the email). Pay attention to the website addresses you click on, as
+well as those you enter yourself. Malicious website addresses one appear almost identical to
+legitimate sites, open using a slight variation in spelling or a different domain.
+Open email attachments with caution. Be wary of opening email attachments, even from senders you
+think you know, particularly when attachments are compressed files or ZIP files.
+Keep your personal information safe. Check a website’s security to ensure the information you submit
+is encrypted before you provide it. Verify email senders. If you are unsure whether or not an email is legitimate, try to verify the email’s
+legitimacy by contacting the sender directly. Do not click on any links in the email. If possible, use a
+previous (legitimate) email to ensure the contact information you have for the sender is authentic
+before you contact them.
+Inform yourself. Keep yourself informed about recent cybersecurity threats and up to date on
+ransomware techniques. You can find information about known phishing attacks on the Anti-Phishing
+Working Group website. You may also want to sign up for CISA product notifications, which will alert
+you when a new Alert, Analysis Report, Bulletin, Current Activity, or Tip has been published.
+Use and maintain preventative software programs. Install antivirus software, firewalls, and email filters
+—and keep them updated—to reduce malicious network traffic.
+Isolate the infected system. Remove the infected system from all networks, and disable the computer’s
+wireless, Bluetooth, and any other potential networking capabilities. Ensure all shared and networked
+drives are disconnected whether wired or wireless.
+Turn o other computers and devices. Power-o and segregate (i.e., remove from the network) the
+infected computer. Power-o and segregate any other computers or devices that shared a network
+with the infected computer that have not been fully encrypted by ransomware. If possible, collect
+and secure all infected and potentially infected computers and devices in a central location, making
+sure to clearly label any computers that have been encrypted. Powering-o and segregating infected
+computers and computers that have not been fully encrypted may allow for the recovery of partially
+encrypted files by specialists. Secure your backups. Ensure that your backup data is online and secure. If possible, scan your backup
+data with an antivirus program to check that it is free of malware.
+Home users: immediately contact your local FBI office or local U.S. Secret Service office to request
+assistance.
+Organizations: immediately report ransomware incidents to your IT helpdesk or security office.
+All users: change all system passwords once the ransomware has been removed. You can submit
+ransomware files to CISA for analysis
+What is encryption?
+In very basic terms, encryption is a way to send a message in code. The only person who can decode the
+message is the person with the correct key; to anyone else, the message looks like a random series of
+letters, numbers, and characters.
+Encryption is especially important if you are trying to send sensitive information that other people should
+not be able to access. Because email messages are sent over the internet and might be intercepted by an
+attacker, it is important to add an additional layer of security to sensitive information
+Encrypting data is a good way to protect sensitive information. It ensures that the data can only be read by the person who is authorized
+to have access to it.
+How is it different from digital signatures?
+Like digital signatures, public-key encryption utilizes software such as PGP, converts information with
+mathematical algorithms, and relies on public and private keys, but there are differences:
+The purpose of encryption is confidentiality—concealing the content of the message by translating it
+into a code. The purpose of digital signatures is integrity and authenticity—verifying the sender of a
+message and indicating that the content has not been changed. Although encryption and digital
+signatures can be used independently, you can also sign an encrypted message.
+When you sign a message, you use your private key, and anybody who has your public key can verify
+that the signature is valid (see Understanding Digital Signatures for more information). When you
+encrypt a message, you use the public key for the person you're sending it to, and his or her private key
+is used to decrypt the message. Because people should keep their private keys confidential and should
+protect them with passwords, the intended recipient should be the only one who is able to view the
+information.
+How does encryption work?
+Obtain the public key for the person you want to be able to read the information. If you get the key from
+a public key ring, contact the person directly to confirm that the series of letters and numbers
+associated with the key is the correct fingerprint.
+ Encrypt the email message using their public key. Most email clients have 
+When the person receives the message, he or she will be able to decrypt it.

@@ -1,0 +1,67 @@
+SCM solutions allow for efficient collaboration between members of a software development team by managing
+the source code of the project. SCM solutions provide file management and versioning of software artifacts.
+A common aspect of SCM solutions is that they provide the ability of developers to work on different
+“branches” of the code base and when ready to merge those branches into a release.
+
+Testing software helps ensure that a quality software solution which meets customer requirements is
+delivered. Software testing is used to reduce risk and improve software quality by finding defects.
+In most environments development staff are responsible for unit and integration testing. Functional,
+regression, and performance testing are often performed by the Quality Assurance group (QA).
+It is important to keep in mind that the further along in the development lifecycle we are the more
+expensive it is to fix vulnerabilities. For this reason unit testing is extremely important since it detects
+issues with the code very early in the software development lifecycle.
+
+Unit testing is typically performed by the developer prior to checking their code into the source code
+management solution or automatically using a unit testing framework such as unittest for Python. Unit testing
+attempts to test the application’s functionality at a basic level.
+Unit testing attempts to test each individual unit of code in order to give you an adequate level of confidence
+that the application will function as intended once integrated. Fixing an issue before it’s deployed to QA or
+Production environments reduces the cost of fixing identified issues.
+
+Integration testing often takes place once multiple software components are combined (a.k.a integrated). The
+idea of integration testing is to take the modules that were unit tested, combine them into the overall solution
+and run integration testing to test the overall application as a whole. This helps identify issues from a system
+wide perspective including the interface of the application.
+Integration testing can take place between multiple components of the same software application or multiple
+applications which integrate. Integration testing is often performed by the development team but may also be
+performed by the quality assurance group.
+
+Functional testing is a form of testing which focuses on certain features or functional aspects of the application.
+For instance, in a stock trading application one functional test may focus solely on the stock buying function of
+the application.
+
+Regression testing is a way to ensure that software which was previously developed, tested, and released still
+functions as intended once updates are made to the solution as a whole. Regression tests are often completed
+at the end of the development lifecycle right before delivering an application to production environments and
+may only take place after significant code rewrites.
+The purpose of regression testing is to make sure that the application works as expected or to ensure that
+major code changes don’t negatively affect the application’s functionality. Other forms of testing may focus on
+testing specific changes or specific functionality.
+
+Performance Testing is typically performed on a regular basis to ensure that an application can meet real world
+conditions. Performance testing is typically performed on applications which must be capable of processing
+large volumes of data/transactions (i.e. credit card processing, stock trading solutions). Performance testing
+consists of multiple types of tests including, straight performance tests, load test, stress test, and capacity test.
+
+Software security is a discipline of software engineering that focuses on delivering secure software. Software
+Security takes place throughout the software development lifecycle and consists of activities such as design
+reviews, threat modeling, static analysis, dynamic analysis, and penetration testing. Many of these processes are
+dependent on the organization.
+Software Security focuses on making sure that best practices to prevent software vulnerabilities are followed
+and that when vulnerabilities are located within software they are mitigated before an attacker can exploit this
+weakness.
+There are various tools involved with securing software that focus on vulnerability detection and vulnerability
+mitigation including static/dynamic analysis tools, Web Application Firewalls (WAF), and Runtime Application
+Self-Protection.
+Software Security focuses heavily on securing web and mobile applications. Even systems that aren’t directly
+connected to the internet typically interact with systems that are connected to the internet and should be
+coded securely.
+
+Peer reviews take many forms including code inspection, team reviews, code walkthroughs, and peer
+programming. Regardless of the form of peer review the fundamental concept is to allow other members of
+the development team to review code from team members before the code is delivered.
+Using peer reviews in the development process can help ensure that software requirements are followed,
+software vulnerabilities don’t exist, development standards are followed and that the code fits the needs of the
+business.
+Peer review results should be documented and communicated to the developer responsible for the changes
+being reviewed.
